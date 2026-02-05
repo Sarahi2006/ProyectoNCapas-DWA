@@ -11,7 +11,7 @@ namespace CapaPresentacion
 {
 
 
-    public partial class Personal
+    public partial class Habitaciones
     {
 
         /// <summary>
@@ -24,30 +24,12 @@ namespace CapaPresentacion
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control lblusuario.
+        /// Control dgvHabitaciones.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblusuario;
-
-        /// <summary>
-        /// Control btnHabitaciones.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnHabitaciones;
-
-        /// <summary>
-        /// Control out.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button @out;
+        protected global::System.Web.UI.WebControls.GridView dgvHabitaciones;
     }
 }

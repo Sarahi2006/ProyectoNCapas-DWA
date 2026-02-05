@@ -28,5 +28,10 @@ namespace CapaPresentacion
             Session.Abandon();
             Response.Redirect("Default.aspx");
         }
+
+        protected void btnHabitaciones_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Habitaciones.aspx");
+        }
     }
 }
