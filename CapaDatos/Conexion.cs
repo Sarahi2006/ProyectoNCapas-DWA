@@ -9,12 +9,13 @@ namespace CapaDatos
 {
     public class Conexion
     {
-        private static string cadena =
-            "Data Source=DEVELOPER;Initial Catalog=LoginDB;Integrated Security=True";
+        private static string cadena = "Data Source=localhost;Initial Catalog=SistemaLogin;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True";
+
 
         public static SqlConnection obtenerConexion()
         {
             return new SqlConnection(cadena);
         }
+
     }
 }
